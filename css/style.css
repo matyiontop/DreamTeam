@@ -118,6 +118,9 @@ nav .navbar-brand {
   font-size: 30px;
   color: #fff;
   transition: 0.5s all;
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 nav .navbar-nav li {
   margin-left: 15px;
@@ -126,8 +129,9 @@ nav .navbar-nav li a {
   color: rgba(255, 255, 255, 0.8) !important;
   font-size: 16px;
   letter-spacing: 0.05em;
-  font-weight: 600;
-  font-family: "Nunito", sans-serif;
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 nav.r-nav {
   background: transparent;
@@ -168,7 +172,7 @@ header {
   height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/background.jpg");
+    url("../images/cats/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -356,4 +360,23 @@ footer .r-icon a:hover {
     background-size: cover;
     background-position: -700px 0;
   }
+}
+
+
+.bitcount-ink-BestFont {
+  font-family: "Bitcount Ink", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0,
+    "CRSV" 0.5,
+    "ELSH" 0,
+    "ELXP" 0,
+    "SZP1" 0,
+    "SZP2" 0,
+    "XPN1" 0,
+    "XPN2" 0,
+    "YPN1" 0,
+    "YPN2" 0;
 }
