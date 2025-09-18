@@ -307,6 +307,7 @@ header {
 .contact .r-icon {
   font-size: 50px;
   text-align: center;
+  color: orangered;
 }
 
 /* footer */
@@ -379,4 +380,10 @@ footer .r-icon a:hover {
     "XPN2" 0,
     "YPN1" 0,
     "YPN2" 0;
+}
+
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
